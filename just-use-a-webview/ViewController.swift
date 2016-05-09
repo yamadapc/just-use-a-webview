@@ -7,13 +7,17 @@
 //
 
 import Cocoa
+import WebKit
 
 class ViewController: NSViewController {
+    @IBOutlet weak var webview: WebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        webview.mainFrameURL = "https://google.com"
+        webview.reload(self)
     }
 
     override var representedObject: AnyObject? {

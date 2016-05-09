@@ -13,6 +13,7 @@
 		CB3719EC1CE12E4B001837C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3719EA1CE12E4B001837C9 /* Main.storyboard */; };
 		CB3719F71CE12E4B001837C9 /* just_use_a_webviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3719F61CE12E4B001837C9 /* just_use_a_webviewTests.swift */; };
 		CB371A021CE12E4B001837C9 /* just_use_a_webviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB371A011CE12E4B001837C9 /* just_use_a_webviewUITests.swift */; };
+		CB371A101CE1366A001837C9 /* node-v6.1.0-darwin-x64 in Resources */ = {isa = PBXBuildFile; fileRef = CB371A0F1CE1366A001837C9 /* node-v6.1.0-darwin-x64 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		CB3719FD1CE12E4B001837C9 /* just-use-a-webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "just-use-a-webviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB371A011CE12E4B001837C9 /* just_use_a_webviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = just_use_a_webviewUITests.swift; sourceTree = "<group>"; };
 		CB371A031CE12E4B001837C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB371A0F1CE1366A001837C9 /* node-v6.1.0-darwin-x64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "node-v6.1.0-darwin-x64"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		CB3719D81CE12E4B001837C9 = {
 			isa = PBXGroup;
 			children = (
+				CB371A0F1CE1366A001837C9 /* node-v6.1.0-darwin-x64 */,
 				CB3719E31CE12E4B001837C9 /* just-use-a-webview */,
 				CB3719F51CE12E4B001837C9 /* just-use-a-webviewTests */,
 				CB371A001CE12E4B001837C9 /* just-use-a-webviewUITests */,
@@ -228,6 +231,7 @@
 			files = (
 				CB3719E91CE12E4B001837C9 /* Assets.xcassets in Resources */,
 				CB3719EC1CE12E4B001837C9 /* Main.storyboard in Resources */,
+				CB371A101CE1366A001837C9 /* node-v6.1.0-darwin-x64 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
